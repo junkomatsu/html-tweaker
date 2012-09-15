@@ -14,7 +14,10 @@
 //}
 
 function randomColor() {
-  return '#ff0000';
+  function c() {
+    return Math.floor(Math.random()*256).toString(16)
+  }
+  return "#"+c()+c()+c();
 }
 
 /*
