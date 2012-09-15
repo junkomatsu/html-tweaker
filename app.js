@@ -6,7 +6,7 @@ try {
 
 
 function init() {
-  window.alert('html-tweaker!!');
+  //window.alert('html-tweaker!!');
 
   var elements = document.getElementByTagName("*");
   var length = elements.length;
