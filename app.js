@@ -1,11 +1,5 @@
-try {
-  window.addEventListener('load', init, false);
-} catch(e) {
-  window.attachEvent('onload', init);
-}
 
-
-function init() {
+function initTweaker() {
   //window.alert('html-tweaker!!');
 
   var elements = document.getElementByTagName("*");
@@ -21,3 +15,10 @@ function init() {
 function randomColor() {
   return '#ff0000';
 }
+
+try {
+  window.addEventListener('load', initTweaker, false);
+} catch(e) {
+  window.attachEvent('onload', initTweaker);
+}
+
