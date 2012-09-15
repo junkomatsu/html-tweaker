@@ -1,5 +1,5 @@
 
-function initTweaker() {
+//function initTweaker() {
   //window.alert('html-tweaker!!');
 
   var elements = document.getElementByTagName("*");
@@ -10,15 +10,16 @@ function initTweaker() {
     element.style.borderColor = randomColor();
     element.style.borderWidth = '1px';
   }
-}
+//}
 
 function randomColor() {
   return '#ff0000';
 }
 
+/*
 try {
   window.addEventListener('load', initTweaker, false);
 } catch(e) {
   window.attachEvent('onload', initTweaker);
 }
-
+*/
