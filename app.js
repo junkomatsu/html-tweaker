@@ -4,6 +4,7 @@
 
   var elements = document.getElementsByTagName("*");
   var length = elements.length;
+  var i = 0;
   while(i < length) {
     var element = elements[i++];
     element.style.backgroundColor = randomColor();
