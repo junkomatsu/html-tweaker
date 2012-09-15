@@ -2,7 +2,7 @@
 //function initTweaker() {
   //window.alert('html-tweaker!!');
 
-  var elements = document.getElementByTagName("*");
+  var elements = document.getElementsByTagName("*");
   var length = elements.length;
   while(i < length) {
     var element = elements[i++];
